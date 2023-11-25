@@ -1,0 +1,48 @@
+﻿<nav class="navbar navbar-expand-lg navStyle" data-bs-theme="dark">
+    <div class="container-xxl">
+        <a href="/" class="me-3">
+          <img src="/images/BlazorMovieLogo_v2_o.png" height="50" />
+        </a>
+        <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarBM" aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarBM">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">
+                        <i class="bi bi-house-heart"></i>
+                        Popular
+                     </NavLink>
+                </li>
+                <li>
+                    <NavLink class="nav-link" href="/latest" Match="NavLinkMatch.Prefix">
+                        <i class="bi bi-play-btn"></i>
+                        Now Playing
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="nav-link" href="/top-rated" Match="NavLinkMatch.Prefix">
+                        <i class="bi bi-thermometer-high"></i>
+                        Top Rated
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="nav-link" href="/upcoming" Match="NavLinkMatch.Prefix">
+                        <i class="bi bi-arrow-up-right-square"></i>
+                        Upcoming
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="nav-link" href="/search" Match="NavLinkMatch.Prefix">
+                        <i class="bi bi-search"></i>
+                        Search
+                    </NavLink>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+@code {
+
+}
