@@ -1,6 +1,6 @@
 # BlazorMovie Live
 
-## I made a little changes to the original code, all the credits to Coder Foundry Team.
+## I made some small changes and improvements to the original code, all the credits to Coder Foundry Team.
 
 ## Code along with us on Youtube!
 
